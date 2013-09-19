@@ -83,6 +83,7 @@ class Custom_Query_Widget extends WP_Widget
         $default = $this->_default_template;
 
         $file    = apply_filters("custom_query_get_template", $default);
+        $file    = apply_filters("custom_query_get_template_{$instance['title']}", $file);
 
         if (is_readable(STYLESHEETPATH . "/" . $file)) {
             return STYLESHEETPATH . "/" . $file;
