@@ -17,3 +17,6 @@
 <p class="description">
     ex:) featured=yes&amp;post_type=post&amp;showposts=5
 </p>
+<p class="description">
+	<a href="http://wpdocs.sourceforge.jp/%E9%96%A2%E6%95%B0%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/WP_Query#.E3.83.91.E3.83.A9.E3.83.A1.E3.83.BC.E3.82.BF" target="_blank">マニュアル</a>
+</p>
