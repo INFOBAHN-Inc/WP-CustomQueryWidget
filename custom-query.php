@@ -68,7 +68,6 @@ class Custom_Query_Widget extends WP_Widget
         $title = apply_filters('widget_title', $instance['title']);
 
         $query = new WP_Query($instance['query']);
-        $posts = $query->get_posts();
 
         include $this->_get_template_path($args, $instance);
     }
